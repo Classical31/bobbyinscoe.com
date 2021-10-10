@@ -1,5 +1,5 @@
-# My website
+## Bobby Inscoe Site
 
-This is the source code for my website
+Repository for the site at bobbyinscoe.com
 
-Enjoy the game!
+This site blows, hopefully I can make it better.
