@@ -2,7 +2,7 @@
 /* Styles for The Fox and the Grapes */
 /* --------------------------------- */
 
-.FeedTheDuck {
+.DuckFeed {
   position: absolute;
   max-width: 600px;
   height: 400px;
@@ -12,10 +12,11 @@
   overflow: hidden;
 }
 
-.scoreboard {
+.GameStats {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 2.5% 0;
 }
 
 .cereal {
@@ -30,10 +31,18 @@
 
 .HighScore {
   margin-top: 5%;
-  height: 100px;
 }
 
-@-webkit-keyframes shake {
+.scores {
+    list-style: none;
+}
+
+.scores li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@keyframes shake {
   0% {
     -webkit-transform: translate(0, 0) rotate(0);
   }
@@ -71,10 +80,11 @@
     -webkit-transform: translate(0, 0) rotate(0);
   }
 }
+
 .shake {
-  -webkit-animation-name: shake;
-  -webkit-animation-duration: 8s;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
+  animation-name: shake;
+  animation-duration: 5s;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }

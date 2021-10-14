@@ -15,10 +15,15 @@
   color: var(--primary);
 }
 
+.App {
+    width: 100vw;
+    height: 100vh;
+}
+
 .content {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: auto;
+  padding: 5%;
 }
 
 body {
